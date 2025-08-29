@@ -1,5 +1,7 @@
 import "./App.css";
-import Stepper from "./Components/ReactStepper/Stepper";
+import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
+import Traffic from "./Components/TraffiLight/Traffic";
+// import Stepper from "./Components/ReactStepper/Stepper";
 // import NestedCheckBox from "./Components/NestedCheckbox";
 // import VirtualizedList from "./Components/VirtualizedList/VirtualizedList";
 // import { virtualizedListData } from "./utils/constant";
@@ -33,7 +35,9 @@ function App() {
         itemHeight={35}
       /> */}
       {/* <NestedCheckBox /> */}
-      <Stepper />
+      {/* <Stepper /> */}
+      {/* <Traffic /> */}
+      <ImageCarousel />
     </div>
   );
 }

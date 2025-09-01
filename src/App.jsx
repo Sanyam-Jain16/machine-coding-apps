@@ -1,6 +1,7 @@
 import "./App.css";
-import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
-import Traffic from "./Components/TraffiLight/Traffic";
+import FileUploader from "./Components/FileUploader/FileUploader";
+// import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
+// import Traffic from "./Components/TraffiLight/Traffic";
 // import Stepper from "./Components/ReactStepper/Stepper";
 // import NestedCheckBox from "./Components/NestedCheckbox";
 // import VirtualizedList from "./Components/VirtualizedList/VirtualizedList";
@@ -37,7 +38,8 @@ function App() {
       {/* <NestedCheckBox /> */}
       {/* <Stepper /> */}
       {/* <Traffic /> */}
-      <ImageCarousel />
+      {/* <ImageCarousel /> */}
+      <FileUploader />
     </div>
   );
 }

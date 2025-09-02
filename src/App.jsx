@@ -1,5 +1,6 @@
 import "./App.css";
-import FileUploader from "./Components/FileUploader/FileUploader";
+// import FileUploader from "./Components/FileUploader/FileUploader";
+import ToastContainer from "./Components/ToastNotification/ToastContainer";
 // import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
 // import Traffic from "./Components/TraffiLight/Traffic";
 // import Stepper from "./Components/ReactStepper/Stepper";
@@ -39,7 +40,8 @@ function App() {
       {/* <Stepper /> */}
       {/* <Traffic /> */}
       {/* <ImageCarousel /> */}
-      <FileUploader />
+      {/* <FileUploader /> */}
+      <ToastContainer />
     </div>
   );
 }

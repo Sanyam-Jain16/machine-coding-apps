@@ -64,14 +64,6 @@
   cursor: pointer;
 }
 
-/* start rating */
-
-.star-rating {
-  .gold {
-    color: gold;
-  }
-}
-
 /* Otp */
 
 .otp-input {

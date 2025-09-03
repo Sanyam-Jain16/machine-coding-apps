@@ -1,6 +1,6 @@
 import "./App.css";
 // import FileUploader from "./Components/FileUploader/FileUploader";
-import ToastContainer from "./Components/ToastNotification/ToastContainer";
+// import ToastContainer from "./Components/ToastNotification/ToastContainer";
 // import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
 // import Traffic from "./Components/TraffiLight/Traffic";
 // import Stepper from "./Components/ReactStepper/Stepper";
@@ -13,20 +13,20 @@ import ToastContainer from "./Components/ToastNotification/ToastContainer";
 // import FileExplorer from "./Components/FileExplorer";
 // import Otp from "./Components/OTP/Otp";
 // import ProgressBar from "./Components/ProgressBar";
-// import StarRating from "./Components/StarRating/StarRating";
+import StarRating from "./Components/StarRating/StarRating";
 // import Pagination from "./Components/Pagination";
 // import TabForm from "./Components/TabFormComponent/TabForm";
 
 function App() {
   return (
     <div className="app">
-      {/* <FileExplorer />
-      <ProgressBar />
-      <AutoComplete />
-      <StarRating starCount={10} />
-      <Otp />
-      <Pagination />
-      <TabForm /> */}
+      {/* <FileExplorer /> */}
+      {/* <ProgressBar /> */}
+      {/* <AutoComplete /> */}
+      <StarRating starCount={5} />
+      {/* <Otp /> */}
+      {/* <Pagination /> */}
+      {/* <TabForm />  */}
       {/* // Turn off the strict mode for the infinite scroll to work properly */}
       {/* <InfiniteScroll /> */}
       {/* <DayView /> */}
@@ -41,7 +41,7 @@ function App() {
       {/* <Traffic /> */}
       {/* <ImageCarousel /> */}
       {/* <FileUploader /> */}
-      <ToastContainer />
+      {/* <ToastContainer /> */}
     </div>
   );
 }

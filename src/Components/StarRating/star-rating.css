@@ -1,0 +1,26 @@
+.star {
+    font-size: 2rem;
+    cursor: pointer;
+    color: lightgray;
+    /* empty */
+    position: relative;
+    display: inline-block;
+}
+
+.star.full {
+    color: gold;
+}
+
+.star.half {
+    color: lightgray;
+    /* base is empty */
+}
+
+.star.half::before {
+    content: "★";
+    color: gold;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+}

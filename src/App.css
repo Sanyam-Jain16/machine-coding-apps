@@ -73,45 +73,6 @@
   margin: 0.3rem;
 }
 
-/* product */
-
-.product-container {
-  display: flex;
-  flex-wrap: wrap;
-
-  .product-card {
-    display: flex;
-    width: 140px;
-    flex-wrap: wrap;
-    border: 1px solid black;
-    padding: 5px;
-    margin: 5px;
-  }
-
-  .product-img {
-    width: 130px;
-    height: 130px;
-  }
-}
-
-.pagination-container {
-  display: flex;
-  flex-direction: rows;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  .page-number {
-    padding: 5px;
-    margin: 2px;
-    border: 1px solid black;
-    cursor: pointer;
-  }
-
-  .active-page {
-    background-color: aqua;
-  }
-}
-
 /* Tab form component */
 
 .heading-container {

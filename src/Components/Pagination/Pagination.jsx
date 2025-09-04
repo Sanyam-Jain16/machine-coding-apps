@@ -1,5 +1,3 @@
-import React from "react";
-
 const Pages = ({ setCurrentPage, currentPage, numOfPages }) => {
   const handlePageChange = (e) => {
     setCurrentPage(Number(e.target.textContent));

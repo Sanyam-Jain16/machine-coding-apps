@@ -1,8 +1,9 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import ProductCard from "./ProductCard";
 import { PAGE_SIZE } from "../../utils/constant";
 import Pages from "./Pagination";
+import "./pagination.css";
 
 const Pagination = () => {
   const [products, setProducts] = useState([]);

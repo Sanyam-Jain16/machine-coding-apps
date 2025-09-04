@@ -13,8 +13,8 @@ import "./App.css";
 // import FileExplorer from "./Components/FileExplorer";
 // import Otp from "./Components/OTP/Otp";
 // import ProgressBar from "./Components/ProgressBar";
-import StarRating from "./Components/StarRating/StarRating";
-// import Pagination from "./Components/Pagination";
+// import StarRating from "./Components/StarRating/StarRating";
+import Pagination from "./Components/Pagination";
 // import TabForm from "./Components/TabFormComponent/TabForm";
 
 function App() {
@@ -23,9 +23,9 @@ function App() {
       {/* <FileExplorer /> */}
       {/* <ProgressBar /> */}
       {/* <AutoComplete /> */}
-      <StarRating starCount={5} />
+      {/* <StarRating starCount={5} /> */}
       {/* <Otp /> */}
-      {/* <Pagination /> */}
+      <Pagination />
       {/* <TabForm />  */}
       {/* // Turn off the strict mode for the infinite scroll to work properly */}
       {/* <InfiniteScroll /> */}

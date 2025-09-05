@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const Otp = ({ otpLength = 6 }) => {
   const ref = useRef([]);

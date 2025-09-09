@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import "./auto-complete.css";
 
 // enhancement
 // key up and down to switch to the showRes value

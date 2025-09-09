@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import "./otp.css";
 
 const Otp = ({ otpLength = 6 }) => {
   const ref = useRef([]);

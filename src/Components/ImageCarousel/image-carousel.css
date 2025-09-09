@@ -1,0 +1,26 @@
+.img-carousel-container {
+    position: relative;
+
+    .left-btn,
+    .right-btn {
+        position: absolute;
+        background-color: black;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 10px;
+        top: 50%;
+    }
+
+    .left-btn {
+        left: 1rem;
+    }
+
+    .right-btn {
+        right: 1rem;
+    }
+
+    img {
+        width: 400px;
+        height: 400px;
+    }
+}

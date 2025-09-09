@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import data from "./data.json";
+import "./image-carousel.css";
 
 const DATA_LENGTH = data.length;
 

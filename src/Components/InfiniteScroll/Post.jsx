@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 const Post = ({ data, setPageNo }) => {
   useEffect(() => {
@@ -26,8 +26,8 @@ const Post = ({ data, setPageNo }) => {
   }, [data]);
 
   return data?.map((imgData) => (
-    <div key={imgData?.id} className="infinite-scroll">
-      <img src={imgData?.download_url} />
+    <div key={imgData.id} className="infinite-scroll">
+      <img src={imgData.download_url} />
     </div>
   ));
 };

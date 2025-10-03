@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 const VirtualizedList = ({ list, height, itemHeight, width }) => {
   const defaultHeight = Math.floor(height / itemHeight);

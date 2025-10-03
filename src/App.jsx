@@ -1,4 +1,7 @@
 import "./App.css";
+import Chess from "./Components/ChessComponent/Chess";
+// import { PokemonCacheProvider } from "./Components/DropdownCaching/PokemonCacheContext";
+// import PokemonDropdown from "./Components/DropdownCaching/PokemonDropdown";
 // import FileUploader from "./Components/FileUploader/FileUploader";
 // import ToastContainer from "./Components/ToastNotification/ToastContainer";
 // import ImageCarousel from "./Components/ImageCarousel/ImageCarousel";
@@ -12,7 +15,7 @@ import "./App.css";
 // import AutoComplete from "./Components/AutoCompleteSearchBar";
 // import FileExplorer from "./Components/FileExplorer";
 // import Otp from "./Components/OTP/Otp";
-import ProgressBar from "./Components/ProgressBar";
+// import ProgressBar from "./Components/ProgressBar";
 // import StarRating from "./Components/StarRating/StarRating";
 // import Pagination from "./Components/Pagination";
 // import TabForm from "./Components/TabFormComponent/TabForm";
@@ -21,7 +24,7 @@ function App() {
   return (
     <div className="app">
       {/* <FileExplorer /> */}
-      <ProgressBar />
+      {/* <ProgressBar /> */}
       {/* <AutoComplete /> */}
       {/* <StarRating starCount={5} /> */}
       {/* <Otp /> */}
@@ -42,6 +45,10 @@ function App() {
       {/* <ImageCarousel /> */}
       {/* <FileUploader /> */}
       {/* <ToastContainer /> */}
+      {/* <PokemonCacheProvider>
+        <PokemonDropdown />
+      </PokemonCacheProvider> */}
+      <Chess />
     </div>
   );
 }

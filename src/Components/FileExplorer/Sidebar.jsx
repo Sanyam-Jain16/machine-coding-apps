@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Sidebar = ({ list, addNodeToList, deleteNodeFromList }) => {
   const [isExpanded, setIsExpanded] = useState({});
